@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenu au pendu</h1>
+    </header>
+    <main>
+        <div class="start-container">
+            <button id="start">COMMENCER</button>
+        </div>
+        <div id="win-container" class="hidden" >
+            <div id="win" class="hidden">
+            <P>Bravo tu as gagné ! <br>Si tu souhaite rejouer, appui simplement sur le boutton ci dessous</P>
+            <button id="retry">REJOUER</button> 
+        </div> 
+        </div>
+        <div id="lose-container" class="hidden">
+        <div id="lose" class="hidden">
+            <p>Dommage tu as perdu ! <br>Si tu souhaite rejouer, appui simplement sur le boutton ci dessous</P>
+            <button id="retry-lose">REJOUER</button> 
+        </div>            
+        </div>
+        <div id="comment-container" class="comment-container">
+            <p id="comment"></p>
+        </div>
+        <div id="chanceLeft-container" class="chanceLeft-container">
+            <p id="chancesLeft"></p>
+        </div>
+        <div class="guessWord-container">
+            <p id="guessWord"></p>
+        </div>
+        <div id="hiddenWord-container" class="hiddenWord-container">
+            <p id="hiddenWord"></p>
+        </div>
+        <div class="pad-container">
+        <div id="pad">
+        </div> 
+        </div>
+
+        <div id="imgContainer" class="hidden">
+
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

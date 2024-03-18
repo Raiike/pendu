@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+input{
+    caret-color: red;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main{
+    font-size: 30px;
+}
+main p{
+    margin: 0;
+}
+.hidden{
+    display: none;
+}
+.comment-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chanceLeft-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.guessWord-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hiddenword{
+    font-size: 70px;
+}
+.hiddenWord-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.try-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#try{
+    width: 255px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.check-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#start{
+    border-radius: 20px;
+    padding: 10px;
+}
+.start-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgContainer img{
+    width: 300px;
+}
+#pad{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border: solid black 1px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 20px;
+    padding: 30px;
+    cursor: pointer;
+}
+#pad p:hover{
+    color: white;
+}
+
+.pad-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#win{
+    background-color: white;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    border: solid green 2px;
+    border-radius: 20px;
+}
+#win p{
+    margin-top: 60px;
+}
+#win-container:not(.hidden) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    margin-top: 20px;
+}
+#lose{
+    background-color: white;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    border: solid green 2px;
+    border-radius: 20px;
+}
+#lose p{
+    margin-top: 60px;
+}
+#lose-container:not(.hidden) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    margin-top: 20px;
+}
